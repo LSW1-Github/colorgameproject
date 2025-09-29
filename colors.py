@@ -1,3 +1,5 @@
+import customtkinter as ctk
+
 
 clrs = [
     'red',      #0
@@ -28,7 +30,3 @@ cvs = [
     ]
 
 
-
-def replace_number(old, new):
-    global numbers
-    numbers = [new if num == old else num for num in numbers]
